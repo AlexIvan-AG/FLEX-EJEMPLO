@@ -1,0 +1,40 @@
+body{
+    background: #de89e6;
+    width: 700px;
+    margin: auto;
+}
+
+h1{
+    color: #ff0;
+}
+
+#principal{
+    background: #ebebeb;
+}
+.contenedor{
+    width: 690px;
+    border: 1px solid #ac009d;
+    margin-top: 15px;
+    display: flex;
+}
+
+.contenedor>div>img{
+    background: #777;
+    color: #fff;
+    width: 120px;
+    height: 100px;
+    font-size: 2em;
+    margin: 4px;
+}
+
+.contenedor>div>p{
+    color: #000000;
+    margin: 39.5px;
+}
+/*--------------------------------------------------*/
+#caja1{
+    flex-direction: row;
+}
+#caja1>div{
+    background: #00eeff;
+}
